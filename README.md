@@ -50,17 +50,17 @@ Add twig templates to `views/blocks` which get and use ACF data. Each template r
   EnqueueAssets: path/to/asset
 #}
 
-<blockquote data-{{ $block['id'] }} class="{{ $block['classes'] }}">
-    <p>{{ get_field('testimonial') }}</p>
+<blockquote data-{{ block.id }} class="{{ block.classes }}">
+    <p>{{ block.data.testimonial }}</p>
     <cite>
-      <span>{{ get_field('author') }}</span>
+      <span>{{ block.data.author }}</span>
     </cite>
 </blockquote>
 
 <style type="text/css">
-  [data-{{$block['id']}}] {
-    background: {{ get_field('background_color') }};
-    color: {{ get_field('text_color') }};
+  [data-{{ block.id }}] {
+    background: {{ block.data.background_color }};
+    color: {{ block.data.text_color }};
   }
 </style>
 ```
