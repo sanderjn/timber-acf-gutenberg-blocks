@@ -92,7 +92,7 @@ Once a block is created you'll be able to assign ACF fields to it using the stan
 
 ## Filter block data
 
-Block data can be altered via the 'sage/blocks/[block-name]/data' filter. For example, if your block template is called `my-block.twig`, you can alter the data this way:
+Block data can be altered via the 'timber/blocks/[block-name]/data' filter. For example, if your block template is called `my-block.twig`, you can alter the data this way:
 
 ```php
 add_filter('timber/blocks/my-block/data', function ($block) { // Do your thing here. });
