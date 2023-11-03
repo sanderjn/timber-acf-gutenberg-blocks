@@ -32,7 +32,7 @@ Add twig templates to `views/blocks` which get and use ACF data. Each template r
 
 ### Example block template
 
-```blade
+```twig
 {#
   Title: Testimonial
   Description: Customer testimonial
