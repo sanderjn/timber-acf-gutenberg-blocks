@@ -88,11 +88,11 @@ The options in the file header map to options in the [`acf_register_block_type` 
 
 ## Creating ACF fields
 
-Once a block is created you'll be able to assign ACF fields to it using the standard Custom Fields interface in WordPress. We recommend using [sage-advanced-custom-fields](https://github.com/MWDelaney/sage-advanced-custom-fields) to keep your ACF fields in version control with Sage.
+Once a block is created you'll be able to assign ACF fields to it using the standard Custom Fields interface in WordPress.
 
 ## Filter block data
 
-Block data can be altered via the 'sage/blocks/[block-name]/data' filter. For example, if your block template is called `my-block.blade.php`, you can alter the data this way:
+Block data can be altered via the 'sage/blocks/[block-name]/data' filter. For example, if your block template is called `my-block.twig`, you can alter the data this way:
 
 ```php
 add_filter('timber/blocks/my-block/data', function ($block) { // Do your thing here. });
