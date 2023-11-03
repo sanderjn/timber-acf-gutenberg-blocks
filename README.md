@@ -1,6 +1,6 @@
 # Timber ACF Gutenberg Blocks
 
-Generate ACF Gutenberg blocks just by adding templates to your Timber theme. This package is based heavily on [this repo](https://github.com/MWDelaney/sage-acf-wp-blocks) by [nicoprat](https://github.com/MWDelaney).
+Generate ACF Gutenberg blocks just by adding templates to your Timber theme. This package is based on [this repo](https://github.com/MWDelaney/sage-acf-wp-blocks) by [MWDelaney](https://github.com/MWDelaney).
 
 ## Installation
 
