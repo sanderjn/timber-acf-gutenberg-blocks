@@ -95,7 +95,7 @@ Once a block is created you'll be able to assign ACF fields to it using the stan
 Block data can be altered via the 'sage/blocks/[block-name]/data' filter. For example, if your block template is called `my-block.blade.php`, you can alter the data this way:
 
 ```php
-add_filter('sage/blocks/my-block/data', function ($block) { // Do your thing here. });
+add_filter('timber/blocks/my-block/data', function ($block) { // Do your thing here. });
 ```
 
 ## Filter template folders
